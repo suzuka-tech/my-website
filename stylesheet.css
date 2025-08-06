@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color:gainsboro;
+    opacity: 0.7;
+    width:100%;
+    height:60px;
+    position:fixed;
+    top:0;
+    z-index:999;
+}
+.title-left a{
+    font-weight: bold;
+    font-size:20px;
+    color: rgb(53, 52, 59);
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left;
+    letter-spacing: 3px;
+}  
+.title-left a:hover{
+    background-color: #eceaea;
+    opacity: 0.9;
+}
+nav{
+    background-color: rgb(53, 52, 59);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    float:right;
+    letter-spacing:1px;
+}
+nav a:hover{
+    background-color:rgb(157, 156, 168);
+}
+nav a{
+    color:white;
+    padding-right: 10px;
+    font-size:12px;
+}
+nav h2{
+    color:white;
+    padding-right:10px;
+    font-size:15px;
+    border-bottom: 1px solid white;
+    margin-top: 3px;
+}
+.introduce-card h1{
+    color:white;
+    padding-top:20px;
+    font-size:50px;
+    letter-spacing:3px;
+}
+.introduce-card h2{
+    font-weight:normal;
+    padding-top:0;
+    padding-bottom:30px;
+    font-size: 27px;
+    color:white;
+    letter-spacing:3px;
+}
+
+
+.home img{
+    height:50px;
+    width:70px;
+}
+.home {
+  background-image: url(IMG_0475.jpg);
+  height: 700px;
+  background-size: cover;
+  position: relative; 
+}
+
+.introduce-card {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  background-color: rgba(128,128,128,0.7);
+  height: 50%;
+  width: 450px;
+  text-align: center;
+}
+
+.introduce-card a{
+    background-color: rgba(5, 15, 87, 0.5);
+    background-size: contain;
+    color:white;
+    font-size:20px;
+    margin-top: 30px;
+    padding:10px 20px 10px 20px;
+    border-radius: 2px;
+    letter-spacing: 3px;
+}
+.introduce-card a:hover{
+    background-color: rgba(5, 15, 87, 0.8);
+}
+.About{
+    background-color:lightgrey;
+    height:320px;
+    width: 80%;
+    margin-top:30px;
+    letter-spacing:2px;
+    border-radius: 3px;
+    margin-left:128px;
+}
+.aabout h2{
+    text-align:center;
+    padding-top: 10px;
+    font-size: 27px;
+    color: rgb(53, 52, 59);
+    border-bottom: 10px solid 3;
+}
+.About li{
+    padding-bottom:10px;
+    padding-left:30px;
+    color: rgb(53, 52, 59);
+    font-size:20px;
+}
+.li1{
+    padding-top:30px;
+}
+.Hobby h2{
+    font-size:27px;
+    padding-top:30px;
+    text-align:center;
+}
+.hobbygrid{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:50px;
+    justify-content: center;
+    gap:30px;
+}
+.hobby-item{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0; 
+}
+.hobby-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: rgb(5, 15, 87);
+}
+.hobby-item p {
+    font-size: 16px;
+    color: rgb(53, 52, 59)
+}
+.Skill h2{
+    font-size:27px;
+    padding-top:30px;
+    text-align:center;
+}
+.skillgrid{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:50px;
+    justify-content: center;
+    gap:30px;
+}
+.skill-item{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0; 
+}
+.skill-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: rgb(5, 15, 87);
+}
+.skill-item p {
+    font-size: 16px;
+    color: rgb(53, 52, 59)
+}
+.Contact h2{
+    text-align:center;
+    padding-top: 10px;
+    font-size: 27px;
+    color: rgb(53, 52, 59);
+    border-bottom: 10px solid 3;
+}
+
+.contact-item{
+    background-color:lightgrey;
+    height:contain;
+    width: 80%;
+    margin-top:30px;
+    letter-spacing:2px;
+    border-radius: 3px;
+    margin-left:128px;
+    padding-bottom:30px;
+    margin-bottom:30px;
+}
+.contact-item p{
+    padding-top:40px;
+    padding-left:30px;
+    color: rgb(53, 52, 59);
+    font-size:20px;
+}
+.contact-item a{
+    background-color: hotpink;
+    opacity: 0.8;
+    color:white;
+    margin-left:40px;
+    margin-top:150px;
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+.contact-item a:hover{
+    opacity:1.0;
+}
+.menu-icon{
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 10px 0;
+    display:none;
+    margin-right:10px;
+}
+
+footer{
+    background-color: aliceblue;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.menu-box{
+    display:none;
+    background-color:gainsboro;
+    opacity: 0.7;
+    float: right;
+    margin-top:0;
+}
+.menu-icon:hover{
+    .menu-box{
+        display:block;
+    }
+}
+.menu-box a:hover{
+    opacity:0.9;
+}

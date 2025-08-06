@@ -1,0 +1,44 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 800px){
+    .menu-icon{
+        display:block;
+    }
+    nav{
+        display:none;
+    }
+    .home{
+        background-position-x: center;
+    }
+    .introduce-card{
+        height: 250px;
+        width: 300px;
+        top:430px;
+        left:20px;
+    }
+    .introduce-card h1{
+        font-size: 30px;
+    }
+    .introduce-card h2{
+        font-size: 18px;
+    }
+    .introduce-card a{
+        font-size: 15px;
+    }
+    .About{
+        margin-left:62px;
+    }
+    .hobby-item{
+        width:50%;
+    }
+    .skill-item{
+        width: 50%;
+    }
+    .contact-item{
+        margin-left:62px;
+    }
+}
