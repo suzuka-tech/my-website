@@ -217,13 +217,16 @@ nav h2{
     text-align:left;
 }
 .contact-item a{
+    display: inline-block;
     background-color: hotpink;
-    opacity: 0.8;
-    color:white;
-    margin-left:40px;
-    margin-top:150px;
-    border-radius: 3px;
-    margin-bottom: 40px;
+    opacity: 0.85;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
 }
 .contact-item a:hover{
     opacity:1.0;
