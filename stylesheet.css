@@ -246,13 +246,14 @@ footer{
     float: right;
     margin-top:0;
 }
+.menu-box a{
+  color:black;
+  )
 .menu-icon:hover{
     .menu-box{
         display:block;
     }
-    opacity: 1.0;
 }
 .menu-box a:hover{
     opacity:0.9;
-    color:black;
 }
