@@ -8,12 +8,6 @@
     .menu-icon{
         display:block;
     }
-    .menu-box{
-        display:none;
-    }
-    .menu-wrapper:hover .menu-box {
-        display: block;
-    }
     .home{
         background-position-x: center;
     }
