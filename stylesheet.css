@@ -242,6 +242,7 @@ nav h2{
     padding: 10px 0;
     display:none;
     margin-right:10px;
+    cursor: pointer;
 }
 
 footer{
@@ -252,21 +253,21 @@ footer{
 .menu-box{
     display:none;
     background-color:gainsboro;
-    opacity: 0.7;
+    opacity: 0.8;
     right:0;
     margin-top:0;
     position:absolute;
     border-radius: 3px;
     z-index: 10;
+    top: 100%;
 }
 .menu-box a{
   display: block;
   color:black;
   padding: 8px 12px;
+  text-decoration: none;
 }
-.menu-wrapper:hover .menu-box {
-  display: block;
-}
+
 .menu-box a:hover{
     opacity:0.9;
 }
