@@ -200,11 +200,14 @@ nav h2{
 
 .contact-item{
     background-color:lightgrey;
-    height: contain;
+    height:contain;
     width: 80%;
-    letter-spacing:1px;
+    margin-top:30px;
+    letter-spacing:2px;
     border-radius: 3px;
-    margin-bottom: 20px;
+    margin-left:128px;
+    padding-bottom:30px;
+    margin-bottom:30px;
 }
 .contact-item p{
     padding-top:40px;
