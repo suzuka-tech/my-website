@@ -204,12 +204,13 @@ nav h2{
     width: 80%;
     letter-spacing:1px;
     border-radius: 3px;
+    margin-bottom: 20px;
 }
 .contact-item p{
     padding-top:40px;
     padding-left:30px;
     color: rgb(53, 52, 59);
-    font-size:17px;
+    font-size:20px;
 }
 .contact-item a{
     background-color: hotpink;
