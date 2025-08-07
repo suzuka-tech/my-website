@@ -231,7 +231,7 @@ nav h2{
     font-size: 25px;
     padding: 10px 0;
     display:none;
-    margin-right:10px;
+    margin-right:16px;
 }
 
 footer{
@@ -250,6 +250,7 @@ footer{
     .menu-box{
         display:block;
     }
+    opacity: 1.0;
 }
 .menu-box a:hover{
     opacity:0.9;
