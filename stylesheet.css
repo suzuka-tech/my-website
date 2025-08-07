@@ -211,6 +211,7 @@ nav h2{
     padding-left:30px;
     color: rgb(53, 52, 59);
     font-size:20px;
+    text-align:left;
 }
 .contact-item a{
     background-color: hotpink;
