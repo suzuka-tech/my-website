@@ -264,7 +264,7 @@ footer{
   color:black;
   padding: 8px 12px;
 }
-.menu-icon:hover .menu-box {
+.menu-wrapper:hover .menu-box {
   display: block;
 }
 .menu-box a:hover{
