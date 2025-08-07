@@ -41,4 +41,7 @@
     .contact-item{
         margin-left:62px;
     }
+    .contact-item p{
+        font-size:13px;
+    }
 }
