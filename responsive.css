@@ -5,12 +5,6 @@
 
 /* スマホ向けレイアウト */
 @media all and (max-width: 800px){
-    .menu-wrapper{  
-        display: block;
-    }
-    nav{
-        display:none;
-    }
     .home{
         background-position-x: center;
     }
