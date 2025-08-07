@@ -106,7 +106,8 @@ nav h2{
 }
 .About{
     background-color:lightgrey;
-    height:320px;
+    height: contain;
+    padding: 20px 30px 20px 30px;
     width: 80%;
     margin-top:30px;
     letter-spacing:2px;
