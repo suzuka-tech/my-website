@@ -200,20 +200,19 @@ nav h2{
 
 .contact-item{
     background-color:lightgrey;
-    height:contain;
-    width: contain;
-    margin-top: 20px;
-    margin-bottom:20px;
-    letter-spacing:2px;
+    height: contain;
+    padding: 20px 30px 20px 30px;
+    width: 80%;
+    margin-top:30px;
+    letter-spacing:1px;
     border-radius: 3px;
-    padding:20px 30px 20px 30px;
-    text-align: center;
+    margin-left:128px;
 }
 .contact-item p{
     padding-top:40px;
     padding-left:30px;
     color: rgb(53, 52, 59);
-    font-size:20px;
+    font-size:17px;
 }
 .contact-item a{
     background-color: hotpink;
