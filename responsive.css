@@ -8,6 +8,9 @@
     .menu-icon{
         display:block;
     }
+    .menu{
+        display:none;
+    }
     .home{
         background-position-x: center;
     }
