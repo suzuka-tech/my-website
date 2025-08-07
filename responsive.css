@@ -39,7 +39,11 @@
         width: 50%;
     }
     .contact-item{
-        margin-left:62px;
+        width: 90%;
+        margin: 0 auto 30px;
+        padding: 20px;
+        border-radius: 8px;
+        box-sizing: border-box;
     }
     .contact-item p{
         font-size:13px;
