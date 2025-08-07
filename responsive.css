@@ -5,8 +5,8 @@
 
 /* スマホ向けレイアウト */
 @media all and (max-width: 800px){
-    .menu-icon{
-        display:block;
+    .menu-wrapper{  
+        display: block;
     }
     nav{
         display:none;
